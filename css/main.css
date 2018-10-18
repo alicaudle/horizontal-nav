@@ -12,11 +12,36 @@ html {
 Body {
   background-color: #79756f;
   text-align: center;
-
+  display: block;
+  margin: 0;
+  width: 100vw;
+  padding: .5em;
+  border: 3px solid #595652;
+  border-radius: none;
+  border-left: none;
 }
 
 h1 {
   color: #fff;
   font-family: Bevan, serif;
   font-weight: bold;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav li {
+  color: #fff;
+  background-color: #713837;
+  display: inline;
+  list-style-type: none;
+  padding: .5em .75em;
+  border-radius: .3em;
+}
+
+a:hover {
+  color: #f33;
 }
